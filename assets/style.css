@@ -34,6 +34,8 @@ p {
   padding: 1em 2em;
   border: 1px solid #667;
   margin: .5em 0;
+  border-radius: 40px;
+
 }
 
 .btn:hover {
@@ -45,11 +47,12 @@ p {
   min-height: 450px;
   color: whitesmoke;
   text-align: center;
+  background-color: #0000ff85;
 }
 
 #showcase .bg-image {
-  position: absolute;
-  background: #333 url("../assets/images/catawbaoutside.jpg");
+  position: fixed;
+  background: #333 url("../assets/images/logo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,9 +73,13 @@ p {
 }
 
 #section-a {
-  background: #eaeaea;
-  color: #333;
-  padding-bottom: 2em;
+  background: #fdc41eb5;
+  text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5,
+   2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5,
+   0px -2px 0 #4074b5, 2px 7px 1px rgba(164, 2, 2, 0.158);
+  background-position: center;
+  color: rgb(252, 250, 250);
+
 }
 
 #section-b {
@@ -96,18 +103,23 @@ p {
 }
 
 #section-c {
-  background: #fff;
-  color: #333;
+  background: #fdc41eb5;
+  text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5,
+   2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5,
+   0px -2px 0 #4074b5, 2px 7px 1px rgba(164, 2, 2, 0.158);
+  color: #FFFFFF;
   padding: 2em;
 }
+
 
 #section-d .box {
   padding: 2em;
   color: #fff;
+  background-color: #000000b8;
 }
 
 #section-d .box:first-child {
-  background: rgb(56, 59, 250);
+  background: rgba(56, 59, 250, 0.78);
 
 }
 
@@ -179,7 +191,6 @@ p {
   }
 
   #section-a .content-text {
-      columns: 2;
       column-gap: 2em;
   }
 
