@@ -39,18 +39,18 @@
                 came from you'll become a regular. There's always the most eclectic
                 group of folks sitting around and telling stories, all over a cup of
                 coffee.
-              </p>
-              <br />
-              <p>
-                When the opportunity came to Irene and her husband Joe to buy the shop
-                it was nearly an immediate yes. The fear and doubt were quickly pushed
-                aside when the thought of having to leave Mount Holly and the family
-                that they'd became a part of was no longer imminent. Often times they're
-                asked how they came up with the name of their shop and the answer is and
-                will always be the Catawba River. Needless to say, the challenge of
-                being business owners was accepted and they have never looked back.
-              </p>
-              <br />
+                </p>
+                <br />
+                <p>
+                    When the opportunity came to Irene and her husband Joe to buy the shop
+                    it was nearly an immediate yes. The fear and doubt were quickly pushed
+                    aside when the thought of having to leave Mount Holly and the family
+                    that they'd became a part of was no longer imminent. Often times they're
+                    asked how they came up with the name of their shop and the answer is and
+                    will always be the Catawba River. Needless to say, the challenge of
+                    being business owners was accepted and they have never looked back.
+                </p>
+                <br />
                 So, If you're in the area be sure to stop by for a cup and a smile. We'd
                 love to meet you!
             </div>
@@ -59,7 +59,9 @@
 
     <!---Section B------>
     <section id="section-b" class="grid">
-        <ul>
+        <div class="content-wrap">
+
+            <!-- <ul>
             <li>
                 <div class="card">
                     <img src="assets/images/sweets.jpg" alt="scary">
@@ -67,6 +69,10 @@
                         <div class="card-title">Pastries</div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque placeat omnis error
                             illum in asperiores culpa doloribus beatae possimus rerum!</p>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Danish</a>
+                            <a href="#" class="card-link">Tarts</a>
+                        </div>
                     </div>
                 </div>
             </li>
@@ -78,6 +84,9 @@
                         <div class="card-title">Coffee</div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque placeat omnis error
                             illum in asperiores culpa doloribus beatae possimus rerum!</p>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Full Menu</a>
+                        </div>
                     </div>
                 </div>
             </li>
@@ -89,10 +98,83 @@
                         <div class="card-title">Events</div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque placeat omnis error
                             illum in asperiores culpa doloribus beatae possimus rerum!</p>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Music</a>
+                            <a href="#" class="card-link">Yoga</a>
+                        </div>
                     </div>
                 </div>
             </li>
-        </ul>
+        </ul>-->
+
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="assets/images/ccmenucolor.png" style="width:100%">
+                    <div class="text">Plenty of Delicious Options</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="assets/images/coffeeart.jpg" style="width:100%">
+                    <div class="text">Tasty Coffee</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="assets/images/danish.jpg" style="width:100%">
+                    <div class="text">Delicious Danish</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="assets/images/sweets.jpg" style="width:100%">
+                    <div class="text">Mouth Watering Sweets</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="assets/images/rener.jpg" style="width:100%">
+                    <div class="text">Friendly Baristas</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="assets/images/storytime.jpg" style="width:100%">
+                    <div class="text">Story Time</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="assets/images/ccmusic.jpg" style="width:100%">
+                    <div class="text">Live Music</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="assets/images/catawbaoutside.jpg" style="width:100%">
+                    <div class="text">Great conversation</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+            </div>
     </section>
 
     <!----Section C------>
@@ -147,6 +229,30 @@
         </div>
         <div>Built by <a href="www.ravenusric.surge.sh" target="_blank">Ravenusric</a></div>
     </footer>
+
+    <!--JavaScript for Image Slideshow-->
+    <script>
+        
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
 
 </body>
 
