@@ -41,6 +41,7 @@ p {
 .btn:hover {
   background: #eaeaea;
   color: rgb(88, 85, 85);
+  border: 1px solid black;
 }
 
 #showcase {
@@ -52,12 +53,12 @@ p {
 
 #showcase .bg-image {
   position: fixed;
-  background: #333 url("../assets/images/logo.png");
+  background: rgb(253, 253, 253) url("../assets/images/logo.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
-  height: 450px;
+  height: 500px;
   z-index: -1;
   opacity: 0.4;
 }
