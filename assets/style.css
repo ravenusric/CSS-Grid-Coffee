@@ -119,15 +119,6 @@ p {
   color: #333;
 }
 
-.card {
-  border: 1px solid black;
-}
-
-.card-content {
-  padding: 1.5em;
-  background-image: url("../assets/images/beanthru2.png");
-  opacity: 0.4;
-}
 
 * {box-sizing:border-box}
 
@@ -303,6 +294,39 @@ p {
   text-decoration: none;
 }
 
+/*Menu Page Styles*/
+.menu {
+  border-bottom: 1px solid rgb(8, 7, 0);
+}
+
+h4.menu {
+  margin-top: -8px;
+}
+
+/*.lattes {
+  float: left;
+  margin-right: 30px;
+}
+
+.espresso {
+  float: left;
+}
+
+.frappes {
+  clear: both;
+  float: right;
+  margin-left: 30px;
+}
+
+.smoothies {
+  float: right;
+}
+
+.food {
+  clear: both;
+  float: left;
+}
+
 /*Media Queries*/
 
 @media(min-width: 700px) {
@@ -396,6 +420,38 @@ p {
     float: left;
     margin-left: 30px;
   } 
+  /*Menu Page Styles*/
+.menu {
+  border-bottom: 1px solid rgb(8, 7, 0);
+}
+
+h4.menu {
+  margin-top: -8px;
+}
+
+.lattes {
+  float: left;
+  margin-right: 30px;
+}
+
+.espresso {
+  float: left;
+}
+
+.frappes {
+  clear: both;
+  float: right;
+  margin-left: 30px;
+}
+
+.smoothies {
+  float: right;
+}
+
+.food {
+  clear: both;
+  float: left;
+}
 
   @media(min-width: 1440px) {
   #showcase .bg-image {
