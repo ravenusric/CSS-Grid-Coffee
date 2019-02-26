@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: rgb(253, 253, 253);
+  background: rgba(253, 253, 253, 1);
   color: antiquewhite;
   font-size: 1.1em;
   line-height: 1.5;
@@ -12,6 +12,8 @@ body {
 
 #showcase .navbar {
   display: flex;
+  justify-content: center;
+  margin-right: 30px;
 }
 
 #showcase .nav-item {
@@ -67,7 +69,7 @@ p {
   min-height: 450px;
   color: whitesmoke;
   text-align: center;
-  background-color: #01011185;
+  background-color: rgba(0, 0, 0, 0.45);
   font-family: 'EB Garamond', serif;
 }
 
@@ -235,11 +237,11 @@ p {
 #section-d .box {
   padding: 2em;
   color: #fff;
-  background-color: #000000b8;
+  background-color: rgba(0, 0, 0, 0.85);
 }
 
 #section-d .box:first-child {
-  background: #000000b8;
+  background: rgba(0, 0, 0, 0.85);
 
 }
 
@@ -329,6 +331,7 @@ p {
   #showcase .navbar {
     display: flex;
     justify-content: center;
+    margin-right: 30px;
   }
   
   #showcase .nav-item {
@@ -410,6 +413,7 @@ p {
   #showcase .navbar {
     display: flex;
     justify-content: center;
+    margin-right: 30px;
   }
   
   #showcase .nav-item {
