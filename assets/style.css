@@ -95,12 +95,24 @@ p {
   padding: 1.5em;
 }
 
-#section-a {
+#section-a,
+#section-a2 {
   background: #f1f1f0b5;
   background-position: center;
   color: rgb(15, 1, 1);
   font-family: 'EB Garamond', serif;
+}
 
+#section-a2 {
+  margin-bottom: 25px;
+}
+
+#section-b2 {
+  background: #f1f1f0b5;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  font-family: 'EB Garamond', serif;
+  margin-bottom: 25px;
 }
 
 #section-b {
@@ -217,7 +229,8 @@ p {
 }
 
 
-#section-c {
+#section-c,
+#section-c2 {
   background: #f1f1f0b5;
   color: rgb(32, 2, 2);
   padding: 2em;
@@ -296,7 +309,8 @@ p {
 
 /*Menu Page Styles*/
 .menu {
-  border-bottom: 1px solid rgb(8, 7, 0);
+  /*border-bottom: 1px solid rgb(8, 7, 0);*/
+  text-decoration: underline;
 }
 
 h4.menu {
@@ -334,6 +348,12 @@ h4.menu {
       display: grid;
       grid-template-columns: 1fr repeat(2,minmax(auto, 25em))
        1fr;
+  }
+
+  img {
+    display: block;
+    width: 400;
+    height: 400;
   }
 
   #showcase .bg-image {
@@ -377,7 +397,15 @@ h4.menu {
       column-gap: 2em;
   }
 
-  #section-a .content-text p {
+  #section-a2 .content-text2,
+  #section-b2 .content-text2 {
+    column-gap:  2em;
+    columns: 2;
+  }
+
+  #section-a .content-text p,
+  #section-a2 .content-text2 p,
+  #section-b2 .content-text2 p {
       padding-top: 0;
   }
 
@@ -422,30 +450,63 @@ h4.menu {
   } 
   /*Menu Page Styles*/
 .menu {
-  border-bottom: 1px solid rgb(8, 7, 0);
+  /*border-bottom: 1px solid rgb(8, 7, 0);*/
+  text-decoration: underline;
 }
 
 h4.menu {
   margin-top: -8px;
 }
 
-.lattes {
+.left-side {
+  width: 50%;
   float: left;
-  margin-right: 30px;
+  margin-top: 45px;
+}
+
+.img-right {
+  display: block;
+  float: right;
+  margin-bottom: 50px;
+  height: 400px;
+  width: 400px;
+}
+
+.img-left {
+  display: block;
+  margin-bottom: 50px;
+  height: 400px;
+  width: 400px;
+}
+
+.right-side {
+  width: 50%;
+  float: left;
+}
+
+.right-side2 {
+  width: 50%;
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+
+.lattes {
+  margin-left: 100px;
 }
 
 .espresso {
   float: left;
+  margin-bottom: 20px;
 }
 
 .frappes {
-  clear: both;
-  float: right;
-  margin-left: 30px;
+  margin-left: 100px;
 }
 
 .smoothies {
-  float: right;
+  float: left;
+  margin-bottom: 20px;
 }
 
 .food {
