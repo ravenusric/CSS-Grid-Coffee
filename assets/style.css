@@ -493,6 +493,7 @@ h4.menu {
 
 .lattes {
   margin-left: 100px;
+  margin-bottom: -10px;
 }
 
 .espresso {
@@ -506,7 +507,7 @@ h4.menu {
 
 .smoothies {
   float: left;
-  margin-bottom: 20px;
+  margin-bottom: -60px;
 }
 
 .food {
