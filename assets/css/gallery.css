@@ -83,6 +83,8 @@ nav li a:hover {
   box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 6px 5px 10px 8px rgba(0,0,0,0.81);
 }
 
+
+
 @media(min-width: 1040px) {
   body {
       margin: 0 auto;
@@ -118,6 +120,7 @@ nav li a:hover {
   }
 
 }
+
 
 
 /* If Grid is supported, remove the margin we set for the fallback */
