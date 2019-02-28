@@ -75,7 +75,7 @@ p {
 
 #showcase .bg-image {
   position: fixed;
-  background: rgb(253, 253, 253) url("../assets/images/logo.png");
+  background: rgb(253, 253, 253) url("../images/logo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -358,7 +358,7 @@ h4.menu {
 
   #showcase .bg-image {
     position: fixed;
-    background: rgb(255, 255, 255) url("../assets/images/logo.png");
+    background: rgb(255, 255, 255) url("../images/logo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -518,7 +518,7 @@ h4.menu {
   @media(min-width: 1440px) {
   #showcase .bg-image {
     position: fixed;
-    background: rgb(255, 255, 255) url("../assets/images/logo.png");
+    background: rgb(255, 255, 255) url("../images/logo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
